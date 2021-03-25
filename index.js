@@ -13,13 +13,13 @@ function handleClick(element) {
       lets= audio = new Audio("sounds\\tom-4.mp3");
       audio.play();
     } else if (element.classList.contains("j")) {
-      lets= audio = new Audio("sounds\\crash.mp3");
+      lets= audio = new Audio("sounds\\snare.mp3");
       audio.play();
     } else if (element.classList.contains("k")) {
-      lets= audio = new Audio("sounds\\kick-bass.mp3");
+      lets= audio = new Audio("sounds\\crash.mp3");
       audio.play();
     } else if (element.classList.contains("l")) {
-      lets= audio = new Audio("sounds\\snare.mp3");
+      lets= audio = new Audio("sounds\\kick-bass.mp3");
       audio.play();
     }
   })
